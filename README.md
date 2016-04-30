@@ -24,4 +24,4 @@
     5、导航栏默认开启全屏Pop手势，如需在某个viewController中禁用的话，设置MXCNavigationController的interactivePopGestureRecognizerEnabled属性为NO即可。
 
   已知问题：   
-    此导航在与UITabBarController配合使用时，tabBarController中的viewController即使在没有显示出来时也会调用了viewDidLoad方法。
+    此导航栏在与UITabBarController配合使用时，tabBarController中的viewController即使在没有显示出来时也会调用了viewDidLoad方法。
