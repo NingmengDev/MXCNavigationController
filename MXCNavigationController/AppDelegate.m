@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "MXCNavigationController/MXCNavigationContainer.h"
+#import "MainViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +20,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    MainViewController *mainViewController = [MainViewController new];
+    
+    MXContainerNavigationController *nav = [[MXContainerNavigationController alloc] initWithRootViewController:mainViewController];
+    
+    self.window.rootViewController = nav;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
