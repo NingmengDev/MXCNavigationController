@@ -3,7 +3,7 @@
 
 =================== 使用说明 ===================   
 
-此导航栏在 “https://github.com/JNTian/JTNavigationController.git” 的基础上进行修改，仅作学习之用。    
+此导航栏在 https://github.com/JNTian/JTNavigationController.git 的基础上进行修改，仅作学习之用。    
 
 此导航栏总体结构：   
  UIWindow    
